@@ -1,0 +1,11 @@
+.ListeDossiers{
+    list-style-type: none;
+    li::marker{
+        display: none;
+    }
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
